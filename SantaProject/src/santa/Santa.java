@@ -8,10 +8,6 @@ package santa;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * @author Aylín Aldana
- */
 public class Santa implements Runnable{
     private main main;
 
