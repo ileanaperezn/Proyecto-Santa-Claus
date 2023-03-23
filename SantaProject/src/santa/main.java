@@ -7,10 +7,6 @@ package santa;
 
 import javax.swing.ImageIcon;
 
-/**
- *
- * @author Aylín Aldana
- */
 public class main extends javax.swing.JFrame {
 
     /**
