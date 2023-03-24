@@ -1,0 +1,16 @@
+public void aumentarenos(){
+        contador_renos++;
+        lblRenos.setText("Renos: " + contador_renos);
+    }
+    
+         
+    public void reparteregalos(){
+        rsscalelabel.RSScaleLabel.setScaleLabel(santaImage, "src/images/trineo.gif");  
+        contador_renos=0;
+        lblRenos.setText("Renos: " + contador_renos);
+    }
+    
+    public void santadormido()
+    {
+        rsscalelabel.RSScaleLabel.setScaleLabel(santaImage, "src/images/santaSleep.gif");  
+    }
