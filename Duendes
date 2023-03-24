@@ -1,0 +1,10 @@
+ public void aumentarduendes(){
+        contador_duendes++;
+        lblDuendes.setText("Duendes: " + contador_duendes);
+    }
+public void ayudaduendes()
+     {
+        rsscalelabel.RSScaleLabel.setScaleLabel(santaImage, "src/images/regalos.jpg");  
+        contador_duendes = 0;
+        lblDuendes.setText("Duendes : " + contador_duendes);
+     }
