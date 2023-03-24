@@ -13,7 +13,7 @@ public class Santa implements Runnable{
 
     public void run() {
         while(true){
-            esperar(5000);
+            esperar(9);
             if(main.contador_renos == 9){
                 
                 main.reparteregalos();
@@ -22,7 +22,7 @@ public class Santa implements Runnable{
              if(main.contador_duendes == 3){
                  System.out.println("Duendes");
                  main.ayudaduendes();
-                 esperar(5000);
+                 esperar(3);
              }
            main.santadormido();
         }

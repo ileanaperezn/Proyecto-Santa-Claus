@@ -87,11 +87,11 @@ public class main extends javax.swing.JFrame {
 
         duendeImage.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        lblRenos.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 1, 24)); // NOI18N
+        lblRenos.setFont(new java.awt.Font("High Tower Text", 2, 25)); // NOI18N
         lblRenos.setText("Renos: 0");
 
         btnAddRenos.setBackground(new java.awt.Color(93, 213, 251));
-        btnAddRenos.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 0, 18)); // NOI18N
+        btnAddRenos.setFont(new java.awt.Font("Yu Gothic Medium", 0, 20)); // NOI18N
         btnAddRenos.setText("Añadir renos");
         btnAddRenos.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnAddRenos.setBorderPainted(false);
@@ -101,11 +101,11 @@ public class main extends javax.swing.JFrame {
             }
         });
 
-        lblDuendes.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 1, 24)); // NOI18N
+        lblDuendes.setFont(new java.awt.Font("High Tower Text", 2, 25)); // NOI18N
         lblDuendes.setText("Duendes: 0");
 
         btnAddDuendes.setBackground(new java.awt.Color(93, 213, 251));
-        btnAddDuendes.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 0, 18)); // NOI18N
+        btnAddDuendes.setFont(new java.awt.Font("Yu Gothic Medium", 0, 20)); // NOI18N
         btnAddDuendes.setText("Añadir duendes");
         btnAddDuendes.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnAddDuendes.setBorderPainted(false);
@@ -132,13 +132,13 @@ public class main extends javax.swing.JFrame {
                 .addComponent(btnAddRenos, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(btnAddDuendes, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(81, 81, 81))
+                .addGap(71, 71, 71))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelSantaLayout.createSequentialGroup()
                 .addGap(137, 137, 137)
                 .addComponent(lblRenos)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(lblDuendes)
-                .addGap(95, 95, 95))
+                .addGap(96, 96, 96))
         );
         panelSantaLayout.setVerticalGroup(
             panelSantaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -150,13 +150,13 @@ public class main extends javax.swing.JFrame {
                     .addComponent(santaImage, javax.swing.GroupLayout.PREFERRED_SIZE, 253, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(28, 28, 28)
                 .addGroup(panelSantaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(lblRenos)
+                    .addComponent(lblRenos, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(lblDuendes))
                 .addGap(18, 18, 18)
                 .addGroup(panelSantaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnAddDuendes, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(btnAddRenos, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(70, Short.MAX_VALUE))
+                .addContainerGap(55, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
